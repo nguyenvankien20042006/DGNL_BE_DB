@@ -26,7 +26,6 @@ public class Customer {
     @Column(length = 15)
     private String phone;
 
-    /** STANDARD hoặc GOLD */
     @Column(name = "member_level", nullable = false, length = 10)
     private String memberLevel;
 
